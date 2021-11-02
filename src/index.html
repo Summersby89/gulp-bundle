@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сборка на Gulp</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container">
+    <ul class="list-reset svg-list">
+      <li class="svg-list__item item-1">
+        <svg class="svg-picture">
+          <use xlink:href="img/sprite.svg#svg--cat"></use>
+        </svg>
+      </li>
+      <li class="svg-list__item item-2">
+        <svg class="svg-picture">
+          <use xlink:href="img/sprite.svg#svg--rabbit"></use>
+        </svg>
+      </li>
+      <li class="svg-list__item item-3">
+        <svg class="svg-picture">
+          <use xlink:href="img/sprite.svg#svg--eagle"></use>
+        </svg>
+      </li>
+    </ul>
+    <h1 class="hero-heading">
+      Этот проект собран с помощью Gulp
+    </h1>
+    <img class="container__img" src="/img/gulp-logo.png" alt="gulp">
+  </div>
+  <script src="gsap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

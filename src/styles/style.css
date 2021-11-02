@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cacaca;
+  height: 100vh;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 50vw;
+  height: 65vh;
+  background-color: #fff;
+}
+
+.hero-heading {
+  margin: 0 0 5%;
+  font-size: 40px;
+}
+
+.list-reset {
+  margin: 0 0 5%;
+  padding: 0;
+  list-style: none;
+}
+
+.svg-list {
+  display: flex;
+}
+
+.svg-list__item:not(:last-child) {
+  margin-right: 5%;
+}
+
+.svg-picture {
+  width: 100px;
+  height: 100px;
+}
+
+.container__img {
+  max-width: 100%;
+  width: 200px;
+}
