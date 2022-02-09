@@ -1,14 +1,19 @@
 {
-  "name": "bundlegulp",
+  "name": "highpass",
   "version": "1.0.0",
-  "description": "home work from Skillbox",
-  "main": "index.js",
+  "description": "home work from skillbox",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp",
     "build": "gulp build"
   },
-  "author": "Sergei Pashkov",
+  "keywords": [
+    "layout",
+    "gulp",
+    "grid"
+  ],
+  "author": "sergei pashkov",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -24,10 +29,14 @@
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
-    "gulp-image": "^6.2.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-notify": "^4.0.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-svg-sprite": "^1.5.0",
-    "gulp-uglify-es": "^3.0.0"
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.49.0",
+    "webpack": "^5.68.0",
+    "webpack-stream": "^7.0.0"
   }
 }
