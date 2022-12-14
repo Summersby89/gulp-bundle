@@ -1,7 +1,7 @@
 {
-  "name": "highpass",
+  "name": "sitdownpls",
   "version": "1.0.0",
-  "description": "home work from skillbox",
+  "description": "diploma project",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,10 +10,9 @@
   },
   "keywords": [
     "layout",
-    "gulp",
-    "grid"
+    "diploma"
   ],
-  "author": "sergei pashkov",
+  "author": "Sergei Pashkov",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -27,6 +26,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
@@ -34,9 +34,9 @@
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^4.1.0",
     "gulp-uglify-es": "^3.0.0",
-    "sass": "^1.49.0",
-    "webpack": "^5.68.0",
-    "webpack-stream": "^7.0.0"
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.49.0"
   }
 }
